@@ -10,8 +10,13 @@
   }
   .divs {
     display: none;
-    width: 1%;
+    justify-content: center;
+    width: 50px;
   }
+  nav{
+  grid-column: 1/2;
+  }
+  
 }
 body {
   display: grid;
